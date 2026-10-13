@@ -1,0 +1,37 @@
+PAKET APLIKASI PERPUSTAKAAN SMPN 7 BUKITTINGGI
+==============================================
+
+Isi folder ini:
+  index.html            -> aplikasi (semua fitur sudah di dalamnya)
+  manifest.webmanifest  -> data aplikasi (nama, ikon, warna)
+  sw.js                 -> agar aplikasi tetap terbuka tanpa internet
+  icons/                -> ikon aplikasi (logo SMPN 7)
+
+LANGKAH 1 - Taruh di internet (gratis, sekali saja)
+  Aplikasi harus beralamat https:// agar bisa dipasang di HP.
+  Cara termudah (tanpa coding):
+  1. Buka  app.netlify.com/drop  (daftar gratis jika diminta).
+  2. Seret SELURUH FOLDER ini ke halaman itu.
+  3. Anda mendapat alamat seperti  https://nama-acak.netlify.app
+  (Alternatif: GitHub Pages atau Cloudflare Pages.)
+
+LANGKAH 2A - Pasang seperti aplikasi (tanpa file APK)
+  1. Di HP Android, buka alamat tadi dengan Chrome.
+  2. Menu titik tiga -> "Instal aplikasi" / "Tambahkan ke layar utama".
+  3. Ikon "Perpustakaan" muncul di layar HP. Dibuka tanpa bilah browser,
+     kamera dan unduhan berfungsi, dan tetap jalan tanpa internet.
+
+LANGKAH 2B - Jika benar-benar butuh file .APK
+  1. Buka  pwabuilder.com , masukkan alamat dari Langkah 1.
+  2. Pilih "Package for stores" -> Android -> unduh paketnya.
+  3. Ikuti petunjuk di PWABuilder untuk menyalakan layar penuh
+     (ada satu berkas kecil yang perlu ditaruh di situs Anda).
+  4. File .apk dapat dibagikan dan dipasang di HP lain.
+
+CATATAN PENTING
+  - Data (riwayat hadir, data siswa/guru, daftar QR, peminjaman) tersimpan
+    di HP/perangkat yang dipakai. Data dari versi file di komputer TIDAK
+    ikut pindah; upload ulang Excel siswa/guru di aplikasi yang baru.
+  - Jangan hapus "data situs/penyimpanan" Chrome, karena data ikut hilang.
+  - Setelah aplikasi diperbarui, buka sekali dengan internet agar versi
+    baru terpasang.
